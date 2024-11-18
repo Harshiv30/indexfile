@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+
+/* HTML and Body Styles */
+
+html {
+   background-color: rgb(225, 245, 230); /* Light greenish-white */
+}
+
+/* Page Body Styles */
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   background-color: rgb(190, 230, 200); /* Soft green */
+   font-family: Verdana, Geneva, Arial, sans-serif;   
+   border: 2px solid rgb(150, 200, 160); /* Subtle border */
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+}
+
+/* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 100%;
+   border-bottom: 4px solid rgb(150, 200, 160); /* Greenish divider */
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontalNavigation > ul > li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   background-color: rgb(50, 130, 90); /* Deep green */
+   display: block;
+   font-family: Champagne, cursive;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+   border-radius: 5px;
+   margin: 0.2em;
+   color: white; /* White text */
+   text-decoration: none;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(240, 255, 240); /* Light greenish-white */
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(40, 110, 80); /* Slightly darker green */
+} 
+
+/* Heading Styles */
+
+h1, h2, h3 {
+   text-indent: 1em;
+}
+
+h1 {
+   font-size: 2.4em;
+   line-height: 2.4em;
+   font-family: Champagne, cursive;
+   letter-spacing: 0.3em;
+   text-align: center;
+   font-weight: normal;
+   color: rgb(40, 110, 80); /* Dark green */
+}
+
+h2, h3 {
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+   padding: 0.5em 0;
+}
+
+h2 {
+   font-size: 1.3em;
+   background-color: rgb(90, 160, 120); /* Muted green */
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 0.3em;
+}
+
+
+h3 {
+   font-size: 1.1em;
+   color: rgb(50, 130, 90); /* Deep green */
+}
+
+
+/* Paragraph Styles */
+
+p {
+   margin: 1em;
+   font-size: 1em;
+   color: rgb(40, 80, 60); /* Subtle dark green */
+}
+
+/* Left Column Styles */
+
+img {
+   width: 100%;
+   display: block;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Column Styles */
+
+aside {
+   background-color: rgb(180, 220, 190); /* Soft green */
+   padding-bottom: 2em;
+   margin-left: 1em;
+   border-radius: 10px;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+}
+
+
+aside > h2 {
+   text-align: center;
+   background-color: rgb(60, 120, 90); /* Darker green */
+   color: rgb(240, 255, 240); /* Light greenish-white */
+   border-radius: 5px;
+   padding: 0.5em;
+}
+
+dl {
+   font-size: 1em;
+   color: rgb(40, 80, 60); /* Subtle dark green */
+}
+
+dl > dt {
+   color: rgb(60, 90, 70); /* Muted green */
+   margin: 1em;
+   font-family: cursive;
+}
+
+dl > dd {
+   margin: 0 1em 0 1em;
+   color: rgb(80, 140, 100); /* Medium green */
+   font-family: cursive;
+}
+
+/* Footer Styles */
+
+footer {
+   color: rgb(240, 255, 240); /* Light greenish-white */
+   background-color: rgb(50, 130, 90); /* Deep green */
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+   border-radius: 5px;
+   margin-top: 1em;
+   box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}

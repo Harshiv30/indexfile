@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+
+/* HTML and Body Styles */
+
+html {
+   background-color: rgb(220, 240, 255); /* Soft light blue */
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+body {
+   background-color: rgb(190, 220, 240); /* Muted blue */
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+   background-color: rgb(40, 80, 120); /* Deep blue */
+   font-family: Champagne, cursive;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+   border-radius: 5px; /* Rounded buttons */
+   padding: 0.5em;
+   display: inline-block;
+   text-decoration: none;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(255, 255, 255); /* White text */
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(30, 70, 110); /* Slightly darker blue */
+   color: rgb(220, 240, 255); /* Lighter text on hover */
+}   
+
+/* Left Column Paragraph Styles */
+
+section#leftColumn p {
+   color: rgb(40, 60, 90); /* Muted navy */
+   font-size: 1em;
+   line-height: 1.8em;
+}
+
+/* Footer Styles */
+
+body > footer {
+   font-size: 0.9em;
+   color: rgb(100, 130, 160); /* Light navy */
+   text-align: center;
+   padding: 1em;
+   background-color: rgb(40, 80, 120); /* Deep blue */
+   color: rgb(255, 255, 255); /* White text */
+}
+
+body > footer h1 {
+   color: rgb(240, 250, 255); /* Slightly muted white */
+   font-size: 1.2em;
+   font-weight: normal;
+   letter-spacing: 0.2em;
+   margin: 1em 0 0.5em;
+}
+
+/* Vertical Navigation Styles */
+
+nav.verticalNavigation ul {
+   margin-left: 1em;
+   line-height: 2em;
+}
+
+nav.verticalNavigation a:link, 
+nav.verticalNavigation a:visited {
+   color: rgb(30, 60, 100); /* Dark blue */
+}
+
+nav.verticalNavigation a:hover, 
+nav.verticalNavigation a:active {
+   text-decoration: underline;
+   color: rgb(20, 50, 90); /* Slightly darker hover effect */
+}
+
+/* Contact Info Styles */
+
+section#contactInfo p {
+   line-height: 1.4em;
+   margin: 1em;
+   color: rgb(40, 80, 120); /* Deep blue */
+}
